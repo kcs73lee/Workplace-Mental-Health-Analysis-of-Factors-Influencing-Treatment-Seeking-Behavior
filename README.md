@@ -4,7 +4,7 @@ This project analyzes survey data on mental health in the workplace using SAS. I
 ## Dataset
 Source: Kaggle - [Mental Health in Tech Survey](https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey)
 
-Target: treatment — whether an individual has sought mental health treatment
+Target: treatment, whether an individual has sought mental health treatment
 
 Size: ~1,200 observations, multiple categorical and numeric variables
 
