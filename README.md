@@ -13,6 +13,10 @@ Size: ~1,200 observations, multiple categorical and numeric variables
 2. Are there significant differences in age or gender among those who seek treatment?
 3. Can we predict treatment using logistic regression?
 
+## Software and Procedures Used
+- SAS 9.4 / SAS OnDemand for Academics
+- PROC FREQ, PROC MEANS, PROC TTEST, PROC LOGISTIC, PROC SGPLOT, ODS PDF
+
 ## Methods
 - Data cleaning and transformation in SAS
 - Descriptive statistics and frequency tables\
@@ -23,19 +27,14 @@ Size: ~1,200 observations, multiple categorical and numeric variables
 - Performance metrics: Accuracy, Sensitivity, Specificity, Precision, F1 Score
 - Visualizations using PROC SGPLOT and VBarParm
 
-## Highlighted Results
-- Family history increased odds of seeking treatment by ~5x.
-- Gender and awareness of benefits were also significant predictors.
-- Logistic model validated with cross-validation: Average Accuracy: ~75%, balanced Sensitivity and Specificity
-- Final bar plot shows model performance metrics.
-
 ## Visualizations
-
 - Bar charts (gender distribution, treatment counts)
 - Histograms (age distribution)
 - Odds ratios and confidence intervals table
 - Bar plot of cross-validation metrics with error bars and mean labels
 
-## Software used and procedures used
-- SAS 9.4 / SAS OnDemand for Academics
-- PROC FREQ, PROC MEANS, PROC TTEST, PROC LOGISTIC, PROC SGPLOT, ODS PDF
+## Highlighted Results
+- Family history increased odds of seeking treatment by ~5x.
+- Gender and awareness of benefits were also significant predictors.
+- Logistic model validated with cross-validation: Average Accuracy: ~75%, balanced Sensitivity and Specificity
+- Final bar plot shows model performance metrics.
