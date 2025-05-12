@@ -14,27 +14,28 @@ Size: ~1,200 observations, multiple categorical and numeric variables
 3. Can we predict treatment using logistic regression?
 
 ## Methods
-Data cleaning and transformation in SAS
-
-Descriptive statistics and frequency tables
-
-Inferential statistics: chi-square tests
-
-Logistic regression with stepwise selection
-
-Odds ratio interpretation
-
-20-fold cross-validation using SAS macro
-
-Performance metrics: Accuracy, Sensitivity, Specificity, Precision, F1 Score
-
-Visualizations using PROC SGPLOT and VBarParm
+- Data cleaning and transformation in SAS
+- Descriptive statistics and frequency tables\
+- Inferential statistics: chi-square tests
+- Logistic regression with stepwise selection
+- Odds ratio interpretation
+- 20-fold cross-validation using SAS macro
+- Performance metrics: Accuracy, Sensitivity, Specificity, Precision, F1 Score
+- Visualizations using PROC SGPLOT and VBarParm
 
 ## Highlighted Results
-Family history increased odds of seeking treatment by ~5x.
+- Family history increased odds of seeking treatment by ~5x.
+- Gender and awareness of benefits were also significant predictors.
+- Logistic model validated with cross-validation: Average Accuracy: ~75%, balanced Sensitivity and Specificity
+- Final bar plot shows model performance metrics.
 
-Gender and awareness of benefits were also significant predictors.
+## Visualizations
 
-Logistic model validated with cross-validation: Average Accuracy: ~75%, balanced Sensitivity and Specificity
+- Bar charts (gender distribution, treatment counts)
+- Histograms (age distribution)
+- Odds ratios and confidence intervals table
+- Bar plot of cross-validation metrics with error bars and mean labels
 
-Final bar plot shows model performance metrics.
+## Software used and procedures used
+- SAS 9.4 / SAS OnDemand for Academics
+- PROC FREQ, PROC MEANS, PROC TTEST, PROC LOGISTIC, PROC SGPLOT, ODS PDF
