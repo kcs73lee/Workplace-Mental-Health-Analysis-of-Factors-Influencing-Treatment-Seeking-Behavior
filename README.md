@@ -3,7 +3,9 @@ This project analyzes survey data on mental health in the workplace using SAS. I
 
 ## Dataset
 Source: Kaggle - [Mental Health in Tech Survey](https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey)
+
 Target: treatment — whether an individual has sought mental health treatment
+
 Size: ~1,200 observations, multiple categorical and numeric variables
 
 ## Key Questions
@@ -13,16 +15,26 @@ Size: ~1,200 observations, multiple categorical and numeric variables
 
 ## Methods
 Data cleaning and transformation in SAS
+
 Descriptive statistics and frequency tables
+
 Inferential statistics: chi-square tests
+
 Logistic regression with stepwise selection
+
 Odds ratio interpretation
+
 20-fold cross-validation using SAS macro
+
 Performance metrics: Accuracy, Sensitivity, Specificity, Precision, F1 Score
+
 Visualizations using PROC SGPLOT and VBarParm
 
 ## Highlighted Results
 Family history increased odds of seeking treatment by ~5x.
+
 Gender and awareness of benefits were also significant predictors.
+
 Logistic model validated with cross-validation: Average Accuracy: ~75%, balanced Sensitivity and Specificity
+
 Final bar plot shows model performance metrics.
